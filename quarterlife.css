@@ -1,0 +1,64 @@
+body {
+    background-color:white;
+    cursor: url(../images/trainphotoshop.png), pointer;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    cursor: url(../images/trainphotoshop.png), pointer;
+}
+header {
+    cursor: url(../images/trainphotoshop.png), pointer;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: url(../images/trainphotoshop.png), pointer;
+}
+a {
+    color: white;
+}
+.flex-container {
+    display:flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.quarter1 {
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+
+.parent {
+    position: absolute;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    color: white;   
+    font-family: angie-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.quarter1,.quarter2,.quarter3,.quarter4{
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+
+.quarter1:hover,.quarter2:hover,.quarter3:hover, .quarter4:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+li {
+    color:white; 
+}
+.links {
+    color: white;
+}
