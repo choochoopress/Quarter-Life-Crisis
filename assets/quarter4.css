@@ -45,8 +45,22 @@ li {
 }
 .links, .link1, .link2, .link3, .link4 {
     color: black;
-    text-align: center;
+    text-align: left;
 }
 .text {
+    text-align: left;
+    margin-right: 100px;
+    line-height: 40px;
+}
+.flex {
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.class1 {
+}
+
+h2 {
     text-align: center;
+    margin-top: 50px;
 }

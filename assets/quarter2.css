@@ -9,7 +9,14 @@ body {
 
 h1 {
     cursor: url(../images/trainphotoshop.png), pointer;
+    text-align: center;
 }
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
 header {
     cursor: url(../images/trainphotoshop.png), pointer;
 }
@@ -42,4 +49,28 @@ p {
 
 .links {
     color: black;
+}
+.text1 {
+    width: 250px;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.text2 {
+    width: 250px;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.flex {
+    display:flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.citation {
+    text-align: center;
+    margin-top: 50px;
 }
