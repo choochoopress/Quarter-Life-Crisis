@@ -15,6 +15,7 @@ h1 {
 h2 {
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 header {
@@ -63,14 +64,43 @@ p {
     margin-top: 50px;
 }
 
-.flex {
+.flex1 {
+    display:flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.flex2 {
+    display:flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.flex3 {
     display:flex;
     justify-content: center;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 50px;
 }
+
+.flex4 {
+    display:flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .citation {
     text-align: center;
     margin-top: 50px;
+}
+
+.flex4 .text2 {
+    font-style: italic; 
 }

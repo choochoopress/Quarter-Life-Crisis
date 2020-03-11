@@ -70,7 +70,10 @@ p {
 
   }
 
-
+.type {
+  text-align: center;
+  margin-top:50px;
+}
 
   .type2 {
     position: absolute;
@@ -92,3 +95,8 @@ p {
     top: 52%;
     left: 68%;
   }
+
+  .citation {
+    text-align: center;
+    margin-top: 200px;
+}
